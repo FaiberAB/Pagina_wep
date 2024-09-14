@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <title>Portafolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav main-nav">
+        <ul class="main-nav__list main-list">
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#home">CASA</a>
+          </li>
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#about">ACERCA DE</a>
+          </li>
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#skills">MIS HABILIDADES</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <!-- Vista previa -->
+      <section class="main__home home" id="home">
+        <h1 class="home__title">Faiber A. Ariza Barreto</h1>
+        <p class="home__subtitle">DESARROLLADOR WEB, PROGRAMADOR PYTHON Y C++</p>
+      </section>
+      <!-- Acerca de mí -->
+      <section class="main__about about" id="about">
+        <h2 class="about__title">ACERCA DE MÍ</h2>
+        <div class="about__info info-block">
+          <p class="info-block__text">
+            ¡Hola! Soy Faiber Ariza, un apasionado universitario y programador con experiencia en Python y C++. 
+            Mi camino en la programación ha sido una emocionante aventura de aprendizaje y crecimiento, y he tenido 
+            la oportunidad de trabajar en proyectos variados e interesantes.
+            <br><br> <!-- Espacio -->
+            Uno de mis proyectos destacados es un innovador bot para Discord, creado con Python. Este bot está diseñado 
+            para promover el cuidado del medio ambiente, proporcionando recomendaciones y consejos personalizados según 
+            la edad del usuario. Ha sido una experiencia enriquecedora que me permitió explorar la programación de bots 
+            y la integración de APIs, mientras abordaba un tema importante y relevante.
+            <br><br>
+            Además, he trabajado en el desarrollo web, donde he diseñado y gestionado varias páginas web. Mi enfoque ha 
+            sido en construir interfaces de usuario intuitivas y atractivas, optimizando la experiencia del usuario y el 
+            rendimiento general del sitio. He utilizado herramientas y tecnologías modernas en el desarrollo web, desde 
+            HTML, CSS entre otras, para crear sitios web que sean visualmente impactantes y funcionales.
+            <br><br>
+            Mi pasión por la tecnología y mi constante deseo de aprender me impulsan a explorar nuevas áreas y a enfrentar 
+            desafíos en el campo de la programación. Siempre estoy en busca de oportunidades para colaborar en proyectos 
+            innovadores y continuar mi crecimiento como profesional.
+          </p>
+          <img
+            class="info-block__img"
+            src="../static/img/Faiber.png"
+            alt="Faiber"
+            width="250"
+            height="550"
+          />
+          <img
+            class="info-block__img"
+            src="../static/img/Faib.png"
+            alt="Faib"
+            width="350"
+            height="550"
+          />
+        </div>
+      </section>
+      <!-- Sección de competencias -->
+      <section class="main__skills skills" id="skills">
+        <h2 class="skills__title">MIS HABILIDADES</h2>
+        <ul class="skills__list skills-list">
+          <li class="skills-list__skill skill">
+            <img
+              class="skill__img"
+              src="../static/img/luz.png"
+              alt="luz"
+              width="150"
+              height="150"
+            />
+            <span class="skill__info">
+              Página sobre el consumo de energía
+            </span>
+            <a class="skill__button" href="https://github.com/FaiberAB/Pagina-ambiente.git" target="_blank">Energía</a>
+          </li>
+          <li class="skills-list__skill skill">
+            <img
+              class="skill__img"
+              src="../static/img/discord.png"
+              alt="discord"
+              width="150"
+              height="150"
+            />
+            <span class="skill__info">
+              Bot sobre el cuidado de la naturaleza
+            </span>
+            <a class="skill__button" href="https://github.com/FaiberAB/Bot.git" target="_blank">Discord</a>
+          </li>
+          <li class="skills-list__skill skill">
+            <img
+              class="skill__img"
+              src="../static/img/Troll.png"
+              alt="html"
+              width="150"
+              height="150"
+            />
+            <span class="skill__info">
+              Creador de memes
+            </span>
+            <a class="skill__button" href="https://github.com/FaiberAB/Generador-de-memes.git" target="_blank">Memes</a>
+          </li>
+          <li class="skills-list__skill skill">
+            <img
+              class="skill__img"
+              src="../static/img/carro.png"
+              alt="SQL"
+              width="150"
+              height="150"
+            />
+            <span class="skill__info">
+              Mi primer juego
+            </span>
+            <a class="skill__button" href="https://hub.kodland.org/project/254900" target="_blank">Juego</a>
+          </li>
+        </ul>
+      </section>
+      <!-- Formulario de contacto -->
+      <section class="main__feedback feedback" id="feedback">
+        <h2 class="feedback__title">FORMULARIO</h2>
+        <form action="" method="POST" class="feedback__form form">
+          <label for="email">
+            <input type="email" class="form__input" name="email" id="email" placeholder="Ingrese su E-mail" required>
+          </label>
+          <label for="text">
+            <textarea name="text" class="form__input" id="text" cols="70" rows="10" required placeholder="Comentario"></textarea>
+          </label>
+          <button class="form__button" type="submit">ENVIAR</button>
+        </form>
+      </section>
+    </main>
+    <!-- Pie de página con enlaces a redes sociales -->
+    <footer>
+      <!-- Puedes agregar enlaces de redes sociales aquí -->
+    </footer>
+  </body>
+</html>
